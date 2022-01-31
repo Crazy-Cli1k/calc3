@@ -15,7 +15,7 @@ if (choice == 1)
 }
 else if (choice == 2)
 {
-
+    Console.WriteLine($"Получилось {Functions.Subtraction(A,B)}");
 }
 else if (choice == 3)
 {

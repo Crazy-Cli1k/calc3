@@ -8,6 +8,9 @@ namespace Calculator
 {
     public static class Functions
     {
-
+        public static double Subtraction(double a, double b)
+        {
+            return a - b;
+        }
     }
 }
