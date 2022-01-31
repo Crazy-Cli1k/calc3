@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Calculator;
 
 Console.WriteLine("Введите A");
 double A = Double.Parse(Console.ReadLine());
@@ -18,7 +19,7 @@ else if (choice == 2)
 }
 else if (choice == 3)
 {
-
+    Console.WriteLine($"{Functions.Multiplication(A, B)} всадника апокалипсиса из 4!");
 }
 else if (choice == 4)
 {

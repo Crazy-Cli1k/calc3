@@ -8,6 +8,10 @@ namespace Calculator
 {
     public static class Functions
     {
+        public static double Multiplication(double A, double B)
+        {
+            return A * B;
+        }
 
     }
 }
