@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Calculator;
 
 Console.WriteLine("Введите A");
 double A = Double.Parse(Console.ReadLine());
@@ -10,7 +11,7 @@ int choice = Int32.Parse(Console.ReadLine());
 
 if (choice == 1)
 {
-
+    Console.WriteLine($"Получилось {Functions.Addition(A, B)}");
 }
 else if (choice == 2)
 {
