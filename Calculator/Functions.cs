@@ -12,5 +12,9 @@ namespace Calculator
         {
             return A + B;
         }
+        public static double Subtraction(double a, double b)
+        {
+            return a - b;
+        }
     }
 }
