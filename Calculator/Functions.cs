@@ -16,5 +16,9 @@ namespace Calculator
         {
             return a - b;
         }
+        public static double Multiplication(double A, double B)
+        {
+            return A * B;
+        }
     }
 }
