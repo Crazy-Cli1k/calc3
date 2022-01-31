@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Calculator;
 
 Console.WriteLine("Введите A");
 double A = Double.Parse(Console.ReadLine());
