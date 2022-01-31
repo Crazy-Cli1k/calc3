@@ -23,6 +23,6 @@ else if (choice == 3)
 }
 else if (choice == 4)
 {
-
+    Console.WriteLine($"Получилось {Functions.Division(A,B)}");
 }
 else Console.WriteLine("Ошибка! Неверные данные!");
