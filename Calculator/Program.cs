@@ -11,18 +11,18 @@ int choice = Int32.Parse(Console.ReadLine());
 
 if (choice == 1)
 {
-
+    Console.WriteLine($"Получилось {Functions.Addition(A, B)}");
 }
 else if (choice == 2)
 {
-
+    Console.WriteLine($"Получилось {Functions.Subtraction(A,B)}");
 }
 else if (choice == 3)
 {
-
+    Console.WriteLine($"{Functions.Multiplication(A, B)} всадника апокалипсиса из 4!");
 }
 else if (choice == 4)
 {
-
+    Console.WriteLine($"Получилось {Functions.Division(A,B)}");
 }
 else Console.WriteLine("Ошибка! Неверные данные!");

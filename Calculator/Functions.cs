@@ -8,6 +8,21 @@ namespace Calculator
 {
     public static class Functions
     {
-
+        public static double Addition(double A, double B)
+        {
+            return A + B;
+        }
+        public static double Subtraction(double a, double b)
+        {
+            return a - b;
+        }
+        public static double Multiplication(double A, double B)
+        {
+            return A * B;
+        }
+        public static double Division(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
